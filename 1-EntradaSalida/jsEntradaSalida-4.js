@@ -6,6 +6,6 @@ function Mostrar()
 {
 	var nombre;
 	nombre=prompt(document.getElementById("elNombre").value);
-	alert(nombre); 
+	document.getElementById("elNombre").value=nombre; 
 }
 
